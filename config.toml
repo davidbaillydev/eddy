@@ -1,5 +1,5 @@
 baseURL       = "http://example.org/"
-languageCode  = "en-us"
+languageCode  = "fr-FR"
 title         = "Roxo | Creative Design Agency"
 theme         = "roxo-hugo"
 summarylength = 25
@@ -8,15 +8,15 @@ summarylength = 25
 [menu]
   # Navbar Menus
   [[menu.nav]]
-    name    = "Home"
+    name    = "Accueil"
     url     = ""
     weight  = 1
   [[menu.nav]]
-    name    = "About"
+    name    = "À propos"
     url     = "about"
     weight  = 2
   [[menu.nav]]
-    name    = "Portfolio"
+    name    = "Services"
     url     = "portfolio"
     weight  = 3
   [[menu.nav]]
@@ -24,7 +24,7 @@ summarylength = 25
     url     = "blog"
     weight  = 4
   [[menu.nav]]
-    name    = "Get in touch"
+    name    = "Reservation"
     url     = "contact"
     weight  = 5
 
