@@ -1,0 +1,27 @@
+{
+  "name": "eddy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidbaillydev/eddy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidbaillydev/eddy/issues"
+  },
+  "homepage": "https://github.com/davidbaillydev/eddy#readme",
+  "dependencies": {
+    "tinacms": "^1.6.4"
+  },
+  "devDependencies": {
+    "@tinacms/cli": "^1.5.46",
+    "@types/node": "^20.14.8"
+  }
+}
