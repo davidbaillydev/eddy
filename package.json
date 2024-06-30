@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "tinacms dev -c \"hugo server\"",
+    "build": "tinacms build && next build",
+    "start": "tinacms build && next start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
