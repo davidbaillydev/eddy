@@ -42,6 +42,61 @@ export default defineConfig({
             isTitle: true,
             required: true,
           },
+
+          {
+            type: 'datetime',
+            name: 'date',
+            label: 'Date',
+          },
+
+          {
+            type: "string",
+            name: "heading",
+            label: "Titre",
+            description: "Grand titre",
+            // list: true,
+            // ui: {
+            //   component: 'tags',
+            // }
+        
+          },
+
+          {
+            type: "string",
+            name: "description",
+            label: "Description",
+            description: "donne une description au titre",
+            // list: true,
+            // ui: {
+            //   component: 'tags',
+            // }
+        
+          },
+
+          {
+            type: "string",
+            name: "expertise_title",
+            label: "Description de l'expertise",
+            description: "donne une description",
+            // list: true,
+            // ui: {
+            //   component: 'tags',
+            // }
+        
+          },
+
+          {
+            type: "string",
+            name: "expertise_sectors",
+            label: "secteur de l'expertise",
+            description: "quel type de projet",
+            list: true,
+            ui: {
+              component: 'tags',
+            }
+        
+          },
+
           {
             type: "rich-text",
             name: "body",
