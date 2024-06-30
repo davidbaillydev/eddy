@@ -28,9 +28,31 @@ export default defineConfig({
   // See docs on content modeling for more info on how to setup new content models: https://tina.io/docs/schema/
   schema: {
     collections: [
+
+
       {
-        name: "post",
-        label: "Posts",
+        name: "About",
+        label: "Caplove",
+        path: "content/about",
+        fields: [
+          {
+            type: "string",
+            name: "title",
+            label: "Title",
+            isTitle: true,
+            required: true,
+          },
+          {
+            type: "rich-text",
+            name: "body",
+            label: "Body",
+            isBody: true,
+          },
+        ],
+      },
+      {
+        name: "blog",
+        label: "Monblog",
         path: "content/blog",
         fields: [
           {
@@ -48,6 +70,54 @@ export default defineConfig({
           },
         ],
       },
+
+      {
+        name: "Contact",
+        label: "Contact",
+        path: "content/contact",
+        fields: [
+          {
+            type: "string",
+            name: "title",
+            label: "Title",
+            isTitle: true,
+            required: true,
+          },
+          {
+            type: "rich-text",
+            name: "body",
+            label: "Body",
+            isBody: true,
+          },
+        ],
+      },
+
+      {
+        name: "portfolio",
+        label: "Nos Services",
+        path: "content/portfolio",
+        fields: [
+          {
+            type: "string",
+            name: "title",
+            label: "Title",
+            isTitle: true,
+            required: true,
+          },
+          {
+            type: "rich-text",
+            name: "body",
+            label: "Body",
+            isBody: true,
+          },
+        ],
+      },
+
+      
+      
+      
     ],
+
+
   },
 });
